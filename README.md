@@ -18,3 +18,9 @@ Lo instalamos: copiamos el ensamblado a la carpeta bin
 ejecutamos xsp y abrimos el navegador con la dirección http://localhost:8080/CampoRequerido.aspx
 
 Al presionar el botón para enviar los datos al servidor se verifica que el atributo de la página Page.IsValid regrese un valor verdadero, si es falso desplegará el mensaje de error de lo contrario desplegará el texto en el control etiqueta Label. En la siguiente imagen se muestra la ejecucción del programa.
+
+Propiedades del control RequiredFieldValidator
+
+controlToValidate El control de donde obtendremos el valor para evaluar
+errorMessage El texto del mensaje que se desplegara si no se cumplen las condiciones
+display Esta propiedad puede tener 3 valores: Static es la propiedad predeterminada, reserva un espacio suficiente en la página para mostrar el mensaje de error.Dynamic el espacio para mostrar el mensaje no se reserva, cuando el mensaje se despliega se desplaza el contenido existente en la página. None el mensaje no será desplegado en el lugar del control sino en el control ValidationSummary si se localiza en la misma página.
