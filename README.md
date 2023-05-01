@@ -13,9 +13,12 @@ ejecutamos xsp y abrimos el navegador con la dirección http://localhost:8080/Ca
 Al presionar el botón para enviar los datos al servidor se verifica que el atributo de la página Page.IsValid regrese un valor verdadero, si es falso desplegará el mensaje de error de lo contrario desplegará el texto en el control etiqueta Label. En la siguiente imagen se muestra la ejecucción del programa.
 
 <h3>Propiedades del control RequiredFieldValidator</h3>
-
+<p>
 <strong>controlToValidate:</strong> El control de donde obtendremos el valor para evaluar
+  </p>
+  <p>
 <strong>errorMessage:</strong> El texto del mensaje que se desplegara si no se cumplen las condiciones
+  </p>
 <p>
 <strong>display:</strong> Esta propiedad puede tener 3 valores: 
   <ol>
