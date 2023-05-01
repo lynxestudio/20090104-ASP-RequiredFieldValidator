@@ -16,4 +16,11 @@ Al presionar el botón para enviar los datos al servidor se verifica que el atri
 
 <strong>controlToValidate:</strong> El control de donde obtendremos el valor para evaluar
 <strong>errorMessage:</strong> El texto del mensaje que se desplegara si no se cumplen las condiciones
-<strong>display:</strong> Esta propiedad puede tener 3 valores: Static es la propiedad predeterminada, reserva un espacio suficiente en la página para mostrar el mensaje de error.Dynamic el espacio para mostrar el mensaje no se reserva, cuando el mensaje se despliega se desplaza el contenido existente en la página. None el mensaje no será desplegado en el lugar del control sino en el control ValidationSummary si se localiza en la misma página.
+<p>
+<strong>display:</strong> Esta propiedad puede tener 3 valores: 
+  <ol>
+    <li>Static:</li> es la propiedad predeterminada, reserva un espacio suficiente en la página para mostrar el mensaje de error.
+    <li>Dynamic:</li> el espacio para mostrar el mensaje no se reserva, cuando el mensaje se despliega se desplaza el contenido existente en la página. 
+    <li>None:</li> el mensaje no será desplegado en el lugar del control sino en el control ValidationSummary si se localiza en la misma página.
+  </ol>
+  </p>
