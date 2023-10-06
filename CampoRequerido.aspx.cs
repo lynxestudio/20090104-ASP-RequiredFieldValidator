@@ -2,7 +2,8 @@ using System;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace blog.listings{
+namespace Repo.Samples
+{
 	public class CampoRequerido: System.Web.UI.Page{
 	protected TextBox txtName;
 	protected RequiredFieldValidator reqvtxtName;

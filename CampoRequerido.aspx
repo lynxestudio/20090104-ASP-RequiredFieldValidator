@@ -1,4 +1,4 @@
-<%@ Page language="C#" AutoEventWireUp="false" CodeBehind="CampoRequerido.aspx.cs" Inherits="blog.listings.CampoRequerido"%>
+<%@ Page language="C#" AutoEventWireUp="false" CodeBehind="CampoRequerido.aspx.cs" Inherits="Repo.Samples.CampoRequerido"%>
 <html>
 <head><title>Campo requerido</title></head>
 <body>
