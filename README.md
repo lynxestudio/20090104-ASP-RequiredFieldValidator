@@ -20,7 +20,7 @@ Lo instalamos: copiamos el ensamblado a la carpeta bin
 ejecutamos <i>xsp</i> y abrimos el navegador con la dirección <i>http://localhost:8080/CampoRequerido.aspx</i>
 
 Al presionar el botón para enviar los datos al servidor se verifica que el atributo de la página Page.IsValid regrese un valor verdadero, si es falso desplegará el mensaje de error de lo contrario desplegará el texto en el control etiqueta Label. En la siguiente imagen se muestra la ejecucción del programa.
-<div><img src="image1.png" class="center"></div>
+<img src="image1.png" class="center">
 
 <h3>Propiedades del control RequiredFieldValidator</h3>
 <p>
