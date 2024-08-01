@@ -18,7 +18,7 @@ ejecutamos <i>xsp</i> y abrimos el navegador con la dirección <i>http://localho
 <p align="justify">
 Al presionar el botón para enviar los datos al servidor se verifica que el atributo de la página Page.IsValid regrese un valor verdadero, si es falso desplegará el mensaje de error de lo contrario desplegará el texto en el control etiqueta Label. 
 En la siguiente imagen se muestra la ejecucción del programa.
-<div>
+<div align="center">
 <img src="image1.png" class="center">
 </div>
 </p>
