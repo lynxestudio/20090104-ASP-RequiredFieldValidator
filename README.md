@@ -1,4 +1,4 @@
-# Usando los controles de validación ASP .NET (RequiredFieldValidator)
+# Controles de validación ASP .NET (RequiredFieldValidator)
 
 <h3>Verificando la información de los formularios con los controles de validación</h3>
 <p align="justify">
